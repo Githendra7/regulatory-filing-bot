@@ -1,18 +1,14 @@
-# Python
+# Ignore virtual environments
 **/venv/
-**/__pycache__/
+
+# Python cache
+__pycache__/
 *.pyc
 *.pyo
-*.pyd
 
 # Node
 **/node_modules/
 
-# General
-*.env
+# Environment
+.env
 *.log
-.DS_Store
-.vscode/
-.idea/
-dist/
-build/
